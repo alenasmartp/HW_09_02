@@ -1,0 +1,15 @@
+   0 date +'%D' > homework.txt
+   1 mkdir -p /tmp/hw3/newfile/alona
+   2 echo "Homework3" >> homework.txt 
+   3 df -h / >> homework.txt 
+   4 cat homework.txt 
+   5 history | tail -5 >> homework.txt 
+   6 cat /proc/cpuinfo | grep -w vendor_id >> homework.txt 
+   7 nano homework.txt 
+   8 ps -ef
+   9 echo '99' >> homework.txt 
+  10 mv homework.txt  /tmp/hw3/newfile/alona
+  11 tree /tmp
+  12 history > history_09_02
+  13 export_file history_09_02 
+  14 history > history_09_02.txt
